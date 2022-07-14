@@ -134,14 +134,15 @@
 }
 
 .about-content div:nth-child(2) {
+    position: absolute;
     font-size: 8em;
-    text-align: center;
     padding-top: 223px;
+    right: 309px;
 }
 
 .about-content div:nth-child(3) {
     font-size: 2.25em;
     font-weight: 300;
-    padding-top: 87px;
+    padding-top: 450px;
     text-align: justify;
 }
