@@ -4,6 +4,13 @@
     font-family: 'Roboto', sans-serif;
 }
 
+:root {
+    --bg-1: #C69B7B;
+    --bg-2: #F7CCAC;
+    --bg-3: #3A3845;
+    --text-color: #3A3845;
+}
+
 /* ====================== header ======================== */
 
 .header {
@@ -65,4 +72,32 @@
     text-decoration: underline;
 }
 
-/* ====================== header ======================== */
+/* ====================== Nav-bar ======================== */
+.nav-bar {
+    width: 100%;
+    background-color: var(--bg-1);
+    padding: 8px 0;
+    box-shadow: black 0 2px 4px;
+}
+
+.nav-bar-group {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.nav-bar-group nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-bar-group nav ul li {
+    padding-right: 36px;
+    list-style: none;
+    text-shadow: black 0 1px 4px
+}
+
+.nav-bar-group nav ul li a {
+    text-decoration: none;
+    color: black;
+}
