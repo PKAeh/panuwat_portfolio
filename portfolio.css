@@ -255,6 +255,5 @@
 progress {
     width: 100%;
     height: 24px;
-    /* background: crimson; */
     accent-color: var(--bg-3);
 }
