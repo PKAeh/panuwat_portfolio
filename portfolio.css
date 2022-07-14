@@ -160,6 +160,7 @@
     width: 100%;
     box-shadow: black 0 2px 4px;
     background-color: var(--bg-2);
+    padding-bottom: 70px;
 }
 
 .edu-group {
@@ -171,7 +172,6 @@
 }
 
 .edu-content {
-    margin-left: 75px;
     padding-top: 75px;
 }
 
@@ -180,12 +180,38 @@
     font-weight: 400;
 }
 
-.edu-content b {
+.edu-content b,
+.syslink b,
+.rueang-wit b {
     display: block;
     margin-top: 32px;
 }
 
 .university,
 .college {
+    padding-left: 5px;
+}
+
+.exp-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 50px;
+}
+
+.syslink,
+.rueang-wit {
+    width: 484px;
+}
+
+.syslink>div:first-child {
+    font-size: 4.4em;
+    font-weight: 400;
+}
+
+.syslink b,
+.syslink p,
+.rueang-wit b,
+.rueang-wit p {
     padding-left: 5px;
 }
