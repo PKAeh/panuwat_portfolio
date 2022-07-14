@@ -177,7 +177,7 @@
 }
 
 .edu-content>div:first-child {
-    font-size: 4.4em;
+    font-size: 4em;
     font-weight: 400;
 }
 
@@ -206,7 +206,7 @@
 }
 
 .syslink>div:first-child {
-    font-size: 4.4em;
+    font-size: 4em;
     font-weight: 400;
 }
 
@@ -259,3 +259,15 @@ progress {
 }
 
 /* ====================== Portfolio & Interests ======================== */
+.port {
+    width: 100%;
+    box-shadow: black 0 2px 4px;
+    background-color: var(--bg-2);
+    padding: 50px 0;
+}
+
+.portfolio-group {
+    width: 1024px;
+    margin: 0 auto;
+    color: var(--text-color);
+}
