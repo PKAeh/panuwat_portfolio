@@ -156,11 +156,12 @@
 }
 
 /* ====================== About ======================== */
+
 .edu {
     width: 100%;
     box-shadow: black 0 2px 4px;
     background-color: var(--bg-2);
-    padding-bottom: 70px;
+    padding-bottom: 50px;
 }
 
 .edu-group {
@@ -172,7 +173,7 @@
 }
 
 .edu-content {
-    padding-top: 75px;
+    padding-top: 50px;
 }
 
 .edu-content>div:first-child {
@@ -215,3 +216,5 @@
 .rueang-wit p {
     padding-left: 5px;
 }
+
+/* ====================== About ======================== */
