@@ -170,7 +170,22 @@
     font-weight: 300;
 }
 
+.edu-content {
+    margin-left: 75px;
+    padding-top: 75px;
+}
+
 .edu-content>div:first-child {
     font-size: 4.4em;
     font-weight: 400;
+}
+
+.edu-content b {
+    display: block;
+    margin-top: 32px;
+}
+
+.university,
+.college {
+    padding-left: 5px;
 }
