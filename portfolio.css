@@ -32,16 +32,18 @@
 .header-content div,
 .header-content a {
     color: #FFFFFF;
+    /* font-size: 25px; */
 }
 
 .header-content div:nth-child(2) {
-    font-size: 70px;
+    font-size: 4.4em;
 
 }
 
 .header-content div:nth-child(1),
 .header-content div:nth-child(3) {
-    font-size: 40px;
+    font-size: 2.5em;
+    padding-left: 4px;
 
 }
 
@@ -52,7 +54,7 @@
 .header-content a {
     display: inline-block;
     padding-top: 30px;
-    padding-left: 5px;
+    padding-left: 8px;
     text-decoration: none;
 }
 
