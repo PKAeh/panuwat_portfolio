@@ -113,19 +113,35 @@
 
 .about {
     width: 100%;
-    height: 500px;
     box-shadow: black 0 2px 4px;
+    background-color: var(--bg-1);
+    padding-bottom: 70px;
 }
 
 .about-group {
     position: relative;
     width: 1024px;
     margin: 0 auto;
+    color: var(--text-color);
 }
 
 .about-content img {
     position: absolute;
-    right: 0;
+    right: 158px;
+    top: 56px;
     width: 290px;
     height: 310px;
+}
+
+.about-content div:nth-child(2) {
+    font-size: 8em;
+    text-align: center;
+    padding-top: 223px;
+}
+
+.about-content div:nth-child(3) {
+    font-size: 2.25em;
+    font-weight: 300;
+    padding-top: 87px;
+    text-align: justify;
 }
