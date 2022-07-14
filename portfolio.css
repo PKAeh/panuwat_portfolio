@@ -155,3 +155,21 @@
 }
 
 /* ====================== About ======================== */
+.edu {
+    width: 100%;
+    box-shadow: black 0 2px 4px;
+    background-color: var(--bg-2);
+}
+
+.edu-group {
+    width: 1024px;
+    margin: 0 auto;
+    color: var(--text-color);
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+.edu-content>div:first-child {
+    font-size: 4.4em;
+    font-weight: 400;
+}
