@@ -114,7 +114,8 @@
 
 .nav-bar-group nav ul li a:hover {
     transform: scale(1.2);
-    color: rgb(241, 8, 8);
+    color: var(--text-color);
+    text-shadow: var(--text-color) 0 0 3px;
 }
 
 /* ====================== About ======================== */
