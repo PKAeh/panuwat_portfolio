@@ -70,6 +70,7 @@
     transform: scale(1.2);
     transform-origin: left bottom;
     text-decoration: underline;
+    text-shadow: #ffffff 0 0 5px;
 }
 
 /* ====================== Nav-bar ======================== */
@@ -114,8 +115,8 @@
 
 .nav-bar-group nav ul li a:hover {
     transform: scale(1.2);
-    color: var(--text-color);
-    text-shadow: var(--text-color) 0 0 3px;
+    color: #ffffff;
+    text-shadow: #ffffff 0 0 5px;
 }
 
 /* ====================== About ======================== */
