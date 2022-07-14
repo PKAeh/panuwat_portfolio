@@ -155,7 +155,7 @@
     text-align: justify;
 }
 
-/* ====================== About ======================== */
+/* ====================== Education & Experience ======================== */
 
 .edu {
     width: 100%;
@@ -217,7 +217,7 @@
     padding-left: 5px;
 }
 
-/* ====================== About ======================== */
+/* ====================== Skills & Languages ======================== */
 .skills {
     width: 100%;
     box-shadow: black 0 2px 4px;
@@ -257,3 +257,5 @@ progress {
     height: 24px;
     accent-color: var(--bg-3);
 }
+
+/* ====================== Portfolio & Interests ======================== */
