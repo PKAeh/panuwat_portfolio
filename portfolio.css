@@ -97,7 +97,7 @@
 .nav-bar-group nav ul li {
     padding-right: 36px;
     list-style: none;
-    text-shadow: black 0 1px 4px
+    /* text-shadow: black 0 1px 4px */
 }
 
 .nav-bar-group nav ul li:last-child {
@@ -105,8 +105,15 @@
 }
 
 .nav-bar-group nav ul li a {
+    display: inline-block;
     text-decoration: none;
     color: black;
+    font-size: 1em;
+}
+
+.nav-bar-group nav ul li a:hover {
+    transform: scale(1.2);
+    color: rgb(241, 8, 8);
 }
 
 /* ====================== About ======================== */
@@ -146,3 +153,5 @@
     padding-top: 450px;
     text-align: justify;
 }
+
+/* ====================== About ======================== */
