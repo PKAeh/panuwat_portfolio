@@ -285,6 +285,11 @@ progress::-webkit-progress-value {
     background: var(--bg-3);
 }
 
+hr {
+    border: 0;
+    border-top: 2px solid var(--text-color);
+}
+
 /* ====================== Portfolio & Interests ======================== */
 .port {
     width: 100%;
